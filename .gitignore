@@ -1,0 +1,32 @@
+# Build outputs (binaries, PDBs)
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.lib
+*.exp
+*.ilk
+*.iobj
+*.ipdb
+Release/
+Debug/
+x64/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Ghidra project database (large binary files, not useful on GitHub)
+GameHackRE/*.rep/
+GameHackRE/*.gpr
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
